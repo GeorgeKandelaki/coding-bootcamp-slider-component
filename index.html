@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                display: none;
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <main class="main-frame">
+            <section class="slider">
+                <div class="slide slide--1" data-slide="1">
+                    <div class="testimonial">
+                        <div class="img-quotes">
+                            <img
+                                src="images/pattern-quotes.svg"
+                                alt="img of quotes"
+                            />
+                        </div>
+                        <blockquote class="testimonial-text margin-bottom-md">
+                            “ I’ve been interested in coding for a while but
+                            never taken the jump, until now. I couldn’t
+                            recommend this course enough. I'm now in the job of
+                            my dreams and so excited about the future.”
+                        </blockquote>
+                        <div class="author">
+                            <strong> Tanya Sinclair</strong>
+                            UX Engineer
+                        </div>
+                    </div>
+
+                    <div class="testimonial-img">
+                        <img
+                            src="images/image-tanya.jpg"
+                            alt="Image of tanya"
+                            class="img"
+                        />
+                    </div>
+                </div>
+
+                <div class="slide slide--2" data-slide="2">
+                    <div class="testimonial">
+                        <blockquote class="testimonial-text margin-bottom-md">
+                            “ If you want to lay the best foundation possible
+                            I'd recommend taking this course. The depth the
+                            instructors go into is incredible. I now feel so
+                            confident about starting up as a professional
+                            developer.”
+                        </blockquote>
+                        <div class="author">
+                            <strong> John Tarkpor </strong>
+                            Junior Front-end Developer
+                        </div>
+                    </div>
+
+                    <div class="testimonial-img">
+                        <img
+                            src="images/image-john.jpg"
+                            alt="Image of John"
+                            class="img"
+                        />
+                    </div>
+                </div>
+
+                <div class="slide slide--3" data-slide="3">
+                    <div class="testimonial">
+                        <blockquote class="testimonial-text margin-bottom-md">
+                            "I Started writing code and I fell in love with
+                            writing code. So I decided to Join this course and I
+                            didn't got any job for now. But I can recommend it
+                            for everyone."
+                        </blockquote>
+                        <div class="author">
+                            <strong> George Kandelaki </strong>
+                            Full-Stack Web Dev/10x Developer
+                        </div>
+                    </div>
+
+                    <div class="testimonial-img">
+                        <img
+                            src="https://scontent.ftbs5-2.fna.fbcdn.net/v/t1.6435-1/85136650_139640870841166_8950969955218620416_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vcGBkGYuITcAX-yfXzV&_nc_ht=scontent.ftbs5-2.fna&oh=00_AfDFIc5VKQsK5AhKMY30_wmFwytfIe_X37L4KaFr9jl5rA&oe=6633D75D"
+                            alt="Image of me"
+                            class="img"
+                        />
+                    </div>
+                </div>
+
+                <div class="btn-box">
+                    <button class="btn btn__left">
+                        <img
+                            src="images/icon-prev.svg"
+                            alt="image of an icon"
+                        />
+                    </button>
+                    <button class="btn btn__right">
+                        <img
+                            src="images/icon-next.svg"
+                            alt="image of an icon"
+                        />
+                    </button>
+                </div>
+            </section>
+            <div class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by <a href="#">George Kandelaki</a>.
+            </div>
+        </main>
+        <div class="curve-box">
+            <img src="images/pattern-curve.svg" alt="pattern curve" />
+        </div>
+    </body>
+</html>
